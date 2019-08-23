@@ -8,7 +8,7 @@ Previously, this was done using an ARIMA model to forecast cancellations for two
 
 Here is the generated ARIMA model:
 
-(arima-model.png)
+[arima-model.png](arima-model.png)
 
 The following is a plot of the predicted versus actual cancellation values:
 
