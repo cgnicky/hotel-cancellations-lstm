@@ -12,7 +12,7 @@ Here is the generated ARIMA model:
 
 The following is a plot of the predicted versus actual cancellation values:
 
-(test-vs-predicted.png)
+![test-vs-predicted.png](test-vs-predicted.png)
 
 80% mean directional accuracy is reasonably good, but can an LSTM (long-short term memory network) do better?
 
@@ -160,7 +160,7 @@ Test Score: 40.75 RMSE
 
 Here is a plot of the predictions:
 
-(h1predictions.png)
+![h1predictions.png](h1predictions.png)
 
 The test and prediction arrays are reshaped accordingly, and the function for *mean directional accuracy* is defined:
 
@@ -181,7 +181,7 @@ The mean directional accuracy is now calculated:
 
 An MDA of **90%** is a significant improvement on the 80% that was previously yielded by the ARIMA model. Let’s see how LSTM performs on the H2 dataset.
 
-(h2predictions.png)
+![h2predictions.png](h2predictions.png)
 
 ```
 >>> mda(Y_test, predictions)
