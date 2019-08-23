@@ -16,7 +16,9 @@ The following is a plot of the predicted versus actual cancellation values:
 
 80% mean directional accuracy is reasonably good, but can an LSTM (long-short term memory network) do better?
 
-LSTMs are sequential neural networks that assume dependence between the observations in a particular series. As such, they have increasingly come to be used for time series forecasting purposes.
+## LSTM (Long-Short Term Memory Network)
+
+LSTMs are sequential neural networks that assume dependence between the observations in a particular series. As such, they have increasingly come to be used for time series forecasting purposes. The Jupyter notebooks with full code, plots, and results can be found [here](https://github.com/MGCodesandStats/hotel-cancellations-lstm).
 
 In the last example, the cancellation data was already sorted into weekly values by pandas. Now, an LSTM will be used in place of ARIMA to predict cancellations for the test set, and ultimately see if an improvement in mean directional accuracy can be obtained.
 
@@ -97,6 +99,8 @@ Epoch 149/150
 Epoch 150/150
 89/89 - 0s - loss: 0.0328
 ```
+
+## Predictions and Accuracy Readings
 
 Now, let’s generate some predictions.
 
